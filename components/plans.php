@@ -47,7 +47,7 @@ if ($get_plan && $get_plan->num_rows > 0) {
                 </div>
                 <div class="pricing-btn">
                     <div class="btn-common pc-btn mb-60">
-                        <a href="#">Select Plan</a>
+                        <a href="<?=$accountLink?>/?a=account">Select Plan</a>
                     </div>
                 </div>
             </div>
