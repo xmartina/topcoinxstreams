@@ -8,7 +8,7 @@ $sql_back = "SELECT * FROM hm2_plans ORDER BY percent ASC ";
 $get_plan = $conn->query($sql_back);
 
 if ($get_plan && $get_plan->num_rows > 0) {
-    echo '<div class="row align-items-center">';
+    echo '<div class="row align-items-center justify-content-center">';
     while ($row = $get_plan->fetch_assoc()) {
         // Format deposit range
         $deposit_range = '$' . number_format($row['min_deposit'], 2);
