@@ -60,7 +60,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                         <h1>Empowering Global Investors</h1>
                         <h1>Across <span style="color: #ff3c00;">Crypto Markets</span></h1>
                     </div>
-                    <p>At Topcoin Xstreams, we are committed to making digital investments simple, secure, and profitable. Our mission is to provide access to trusted crypto opportunities through innovative technology, expert strategies, and transparent operations.</p>
+                    <p>At <?=$siteName?>, we are committed to making digital investments simple, secure, and profitable. Our mission is to provide access to trusted crypto opportunities through innovative technology, expert strategies, and transparent operations.</p>
                 </div>
                 <div class="dreamit-icon-list wow fadeInUp">
                     <ul>
@@ -132,7 +132,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                 <div class="itpro-section-title wow fadeInUp pb-50">
                     <h4 class="section-sub-title style1 style9">Testimonials</h4>
                     <div class="itpro-section-main-title">
-                        <h1 style="color: #fff;">Topcoin Xstreams Clients</h1>
+                        <h1 style="color: #fff;"><?=$siteName?> Clients</h1>
                         <h1 style="color: #fff;">Real <span style="color: #ff3c00;">Investor Feedback</span></h1>
                     </div>
                 </div>
@@ -180,7 +180,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                                 </div>
                             </div>
                             <div class="em-testimonial-text">
-                                <p>“Topcoin Xstreams helped me grow my passive income portfolio without stress. Withdrawals are fast and secure!”</p>
+                                <p>“<?=$siteName?> helped me grow my passive income portfolio without stress. Withdrawals are fast and secure!”</p>
                             </div>
                             <div class="em-testi-start-icon">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
@@ -226,7 +226,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                                 </div>
                             </div>
                             <div class="em-testimonial-text">
-                                <p>“Topcoin Xstreams gave me my first experience earning from crypto. Now, it’s a part of my monthly budget!”</p>
+                                <p>“<?=$siteName?> gave me my first experience earning from crypto. Now, it’s a part of my monthly budget!”</p>
                             </div>
                             <div class="em-testi-start-icon">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
@@ -303,88 +303,65 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
 
 
 
-
-<!--==================================================-->
-<!-- Start itpro Team Area -->
-<!--==================================================-->
-
-<!--==================================================-->
-<!-- End itpro Team Area -->
-<!--==================================================-->
-
-
-
-
 <!--==================================================-->
 <!-- Start  FAQ Section -->
 <!--===================================================-->
-<div class="faq-sectiions ">
+<div class="faq-sectiions">
     <div class="container">
         <div class="row">
+            <!-- Left Text Content -->
             <div class="col-lg-6 col-md-12">
                 <div class="faq-left wow fadeInUp">
                     <div class="itpro-section-title pb-10">
-                        <h4 class="section-sub-title style1 style11">process</h4>
+                        <h4 class="section-sub-title style1 style11">Help Center</h4>
                         <div class="itpro-section-main-title pb-20">
-                            <h1 style="color: #fff;">Freequently Question</h1>
+                            <h1 style="color: #fff;">Frequently Asked Questions</h1>
                         </div>
-                        <p> Appropriately enhance principle-centered innovation rather than high
-                            standards in platforms. Credibly orchestrate functional. </p>
+                        <p>Here are answers to the most common questions about investing, withdrawals, and account setup on <?=$siteName?>.</p>
                     </div>
                     <div class="dreamit-icon-list">
                         <ul>
-                            <li><i class="bi bi-arrow-right-circle"></i> <span> Communicate orthogonal process </span>
-                            </li>
-                            <li><i class="bi bi-arrow-right-circle"></i> <span> Professionally grow cutting-edge
-										paradigms </span></li>
-                            <li><i class="bi bi-arrow-right-circle"></i> <span> Communicate orthogonal process </span>
-                            </li>
-                            <li><i class="bi bi-arrow-right-circle"></i> <span> Professionally grow cutting-edge
-										paradigms </span></li>
+                            <li><i class="bi bi-arrow-right-circle"></i> <span> Secure Crypto Investment Plans </span></li>
+                            <li><i class="bi bi-arrow-right-circle"></i> <span> Instant Payouts to Wallets </span></li>
+                            <li><i class="bi bi-arrow-right-circle"></i> <span> 24/7 Account Monitoring </span></li>
+                            <li><i class="bi bi-arrow-right-circle"></i> <span> Verified & Transparent Operations </span></li>
                         </ul>
                     </div>
                     <div class="why-choose-button">
-                        <a href="about.html"> <i class="bi bi-gear"></i> More About </a>
+                        <a href="<?=$siteLink?>/about"> <i class="bi bi-gear"></i> Learn More About Us </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Right Accordion FAQ -->
             <div class="col-lg-6 col-md-12 pl-0">
-                <!-- Start Accordion -->
-                <div class="tab_container wow fadeInUp  pl-30 pt-20">
+                <div class="tab_container wow fadeInUp pl-30 pt-20">
                     <div id="tab1" class="tab_content">
                         <ul class="accordion style1">
                             <li>
-                                <a><span> What is Finance Consultant? </span></a>
-                                <p>Continually cultivate inexpensive convergence whereas collaborative communitie.
-                                    Credib generate team building vorta after professional value. Proactively
-                                    administrate enabled paradigm</p>
+                                <a><span> How do I start investing with <?=$siteName?>? </span></a>
+                                <p>Simply create an account, choose an investment plan, and fund your account using BTC, ETH, or USDT. Your earnings start immediately after confirmation.</p>
                             </li>
                             <li>
-                                <a><span> How to Book a New Consultant? </span></a>
-                                <p>Continually cultivate inexpensive convergence whereas collaborative communitie.
-                                    Credib generate team building vorta after professional value. Proactively
-                                    administrate enabled paradigm</p>
+                                <a><span> How long before I receive my profits? </span></a>
+                                <p>Each plan has a fixed duration (e.g., 24–72 hours). Once the plan completes, your profit is automatically credited to your dashboard balance for withdrawal.</p>
                             </li>
                             <li>
-                                <a><span> How to Book a New Consultant? </span></a>
-                                <p>Continually cultivate inexpensive convergence whereas collaborative communitie.
-                                    Credib generate team building vorta after professional value. Proactively
-                                    administrate enabled paradigm</p>
+                                <a><span> Can I withdraw anytime? </span></a>
+                                <p>You can withdraw your available balance anytime after the investment plan has matured. We support withdrawals in BTC, ETH, and USDT with near-instant processing.</p>
                             </li>
                             <li>
-                                <a><span> How to Book a New Consultant? </span></a>
-                                <p>Continually cultivate inexpensive convergence whereas collaborative communitie.
-                                    Credib generate team building vorta after professional value. Proactively
-                                    administrate enabled paradigm</p>
+                                <a><span> Is <?=$siteName?> legit and secure? </span></a>
+                                <p>Yes! We use encrypted wallet technology, smart contract automation, and have verified project transparency. Client funds are always secure and withdrawals are traceable.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!-- End Accordion -->
             </div>
         </div>
     </div>
 </div>
+
 <!--==================================================-->
 <!-- End  FAQ Section -->
 <!--===================================================-->
