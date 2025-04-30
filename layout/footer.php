@@ -9,9 +9,7 @@
                     <a href="index.html"><img src="<?=$siteLink?>/assets/images/logo.png" alt="logo"></a>
                 </div>
                 <div class="footer-widget-desc  wow fadeInUp ">
-                    <p>Globally monetize plug-and-play data without reliable them
-                        monotonectally disseminate goal-oriented solutions viaters
-                        multifunctional mindshare</p>
+                    <p><?=$siteName?> is a leading platform for secure and profitable crypto investments. We provide expert insights and innovative solutions to help investors grow their portfolios in the digital currency space.</p></p>
                 </div>
                 <div class="footer-widget-social-title  wow fadeInUp ">
                     <h4>Follow Us</h4>
