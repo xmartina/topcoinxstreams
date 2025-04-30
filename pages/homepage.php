@@ -477,10 +477,10 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
         <div class="row">
             <div class="col-lg-6 ">
                 <div class="itpro-section-title  wow fadeInUp  pb-40">
-                    <h4 class="section-sub-title style1 style5">ASKED AND QUESTIONS</h4>
+                    <h4 class="section-sub-title style1 style5">FREQUENTLY ASKED QUESTIONS</h4>
                     <div class="itpro-section-main-title">
-                        <h1 style="color: white;">We Focus on Quality</h1>
-                        <h1 style="color: white;"> Not <span style="color: #ff3c00;"> Quantity. </span></h1>
+                        <h1 style="color: white;">We Focus on Security</h1>
+                        <h1 style="color: white;"> & <span style="color: #ff3c00;">Transparency.</span></h1>
                     </div>
                 </div>
                 <!-- Start Accordion -->
@@ -488,31 +488,26 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                     <div id="tab1" class="tab_content">
                         <ul class="accordion">
                             <li>
-                                <a><span> What is Finance Consultant? </span></a>
-                                <p>Team is a diverse netork of consultants and prossfessionals in
-                                    your issues and are driven to ask questions.</p>
+                                <a><span>Is <?php echo $siteName; ?> secure for crypto investments?</span></a>
+                                <p>Yes. We use bank-grade encryption, two-factor authentication (2FA), and cold storage for 98% of user funds. Regular third-party audits ensure platform integrity.</p>
                             </li>
                             <li>
-                                <a><span> How to Book a New Consultant? </span></a>
-                                <p>Team is a diverse netork of consultants and prossfessionals in
-                                    your issues and are driven to ask questions.</p>
+                                <a><span>How do I start investing?</span></a>
+                                <p>1. Sign up at <?php echo $siteName; ?>.<br>2. Complete KYC verification.<br>3. Deposit funds via your dashboard (<?php echo $accountLink; ?>).<br>4. Choose your investment plan.</p>
                             </li>
                             <li>
-                                <a><span> What is the Benifits of Busines ? </span></a>
-                                <p>Team is a diverse netork of consultants and prossfessionals in
-                                    your issues and are driven to ask questions.</p>
+                                <a><span>What cryptocurrencies are supported?</span></a>
+                                <p>We support Bitcoin (BTC), Ethereum (ETH), USDT, and 50+ altcoins. Visit <?php echo $siteName; ?> for the full list.</p>
                             </li>
                             <li>
-                                <a><span> How to Book a New Consultant? </span></a>
-                                <p>Team is a diverse netork of consultants and prossfessionals in
-                                    your issues and are driven to ask questions.</p>
+                                <a><span>How long do withdrawals take?</span></a>
+                                <p>Withdrawals are processed within 2-4 hours for verified accounts. Delays may occur during network congestion or security reviews.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <!-- End Accordion -->
             </div>
-
             <div class="col-lg-6"></div>
         </div>
     </div>
@@ -528,45 +523,45 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
     <div class="container">
         <div class="row counter_bg">
             <div class="col-lg-3 col-md-6">
-                <div class="counter-single-item  wow fadeInUp ">
+                <div class="counter-single-item wow fadeInUp">
                     <div class="counter-content">
                         <div class="counter-title">
-                            <h1>202</h1>
+                            <h1>250K</h1>
                             <span>+</span>
-                            <h5>COMPLETED PROJECT</h5>
+                            <h5>ACTIVE INVESTMENTS</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="counter-single-item  wow fadeInUp ">
+                <div class="counter-single-item wow fadeInUp">
                     <div class="counter-content">
                         <div class="counter-title">
-                            <h1>202</h1>
+                            <h1>150K</h1>
                             <span>+</span>
-                            <h5>COMPLETED PROJECT</h5>
+                            <h5>SUCCESSFUL TRADES</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="counter-single-item  wow fadeInUp ">
+                <div class="counter-single-item wow fadeInUp">
                     <div class="counter-content">
                         <div class="counter-title">
-                            <h1>202</h1>
+                            <h1>120K</h1>
                             <span>+</span>
-                            <h5>COMPLETED PROJECT</h5>
+                            <h5>ACTIVE TRADERS</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="counter-single-item style  wow fadeInUp ">
+                <div class="counter-single-item style wow fadeInUp">
                     <div class="counter-content">
                         <div class="counter-title">
-                            <h1>202</h1>
+                            <h1>8</h1>
                             <span>+</span>
-                            <h5>COMPLETED PROJECT</h5>
+                            <h5>YEARS OF EXPERIENCE</h5>
                         </div>
                     </div>
                 </div>
