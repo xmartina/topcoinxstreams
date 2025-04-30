@@ -1,5 +1,5 @@
 <?php
-$sql_back = "SELECT * FROM hm2_plans WHERE status='on'";
+$sql_back = "SELECT * FROM hm2_plans";
 $get_plan = $conn->query($sql_back);
 
 if ($get_plan && $get_plan->num_rows > 0) {
