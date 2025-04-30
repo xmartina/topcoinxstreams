@@ -186,55 +186,61 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
 <div class="about_area style-two">
     <div class="container">
         <div class="row align-items-center">
+            <!-- Left Image -->
             <div class="col-lg-6">
-                <div class="about_thumb  wow fadeInUp ">
-                    <img src="<?=$siteLink?>/assets/images/about/about2.png" alt="">
+                <div class="about_thumb wow fadeInUp">
+                    <img src="<?= $siteLink ?>/assets/images/about/about2.png" alt="Topcoin Xstreams About Image">
                 </div>
             </div>
+
+            <!-- Right Content -->
             <div class="col-lg-6">
-                <div class="about-right  wow fadeInUp ">
+                <div class="about-right wow fadeInUp">
                     <div class="itpro-section-title pb-10">
-                        <h4 class="section-sub-title style1 style2">HOW WE WORK</h4>
+                        <h4 class="section-sub-title style1 style2">HOW <?= $siteName ?> WORKS</h4>
                         <div class="itpro-section-main-title pb-20">
-                            <h1 style="color:white;"> We Provide the Best IT</h1>
-                            <h1 style="color:white;"> Solutions <span style="color: #ff3c00;"> Business. </span></h1>
+                            <h1 style="color:white;"> We Deliver Powerful Crypto</h1>
+                            <h1 style="color:white;"> Solutions <span style="color: #ff3c00;">That Work. </span></h1>
                         </div>
-                        <p>Team is a diverse network of consultants and industry professionals in
-                            with a global mindset and a colaborative culure  in work to understand
-                            your issues and are driven to ask questions.</p>
+                        <p>At <?= $siteName ?>, our mission is to simplify crypto investing. We leverage secure blockchain tech, real-time analytics, and an intuitive dashboard to help you grow your assets with confidence.</p>
                     </div>
+
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 ">
-                            <div class="about-signle-item">
-                                <div class="about-icon">
-                                    <img src="<?=$siteLink?>/assets/images/about/about-icon1.png" alt="">
-                                </div>
-                                <div class="about-contetn">
-                                    <h3 class="about-title">Certified Company</h3>
-                                    <p class="about-description">Continued  up zealously necessary breakfast.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Feature 1 -->
                         <div class="col-lg-6 col-md-6">
                             <div class="about-signle-item">
                                 <div class="about-icon">
-                                    <img src="<?=$siteLink?>/assets/images/about/about-icon3.png" alt="">
+                                    <img src="<?= $siteLink ?>/assets/images/about/about-icon1.png" alt="Secure Platform">
                                 </div>
                                 <div class="about-contetn">
-                                    <h3 class="about-title">Certified Company</h3>
-                                    <p class="about-description">Continued  up zealously necessary breakfast.</p>
+                                    <h3 class="about-title">Trusted & Secure</h3>
+                                    <p class="about-description">Your data and investments are protected with multi-layer encryption and blockchain technology.</p>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- Feature 2 -->
+                        <div class="col-lg-6 col-md-6">
+                            <div class="about-signle-item">
+                                <div class="about-icon">
+                                    <img src="<?= $siteLink ?>/assets/images/about/about-icon3.png" alt="Fast Withdrawals">
+                                </div>
+                                <div class="about-contetn">
+                                    <h3 class="about-title">Instant Withdrawals</h3>
+                                    <p class="about-description">Withdraw your profits quickly, anytime – no delays, no hidden conditions.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Author/Founder Signature -->
                     <div class="about_author">
                         <div class="author-text">
-                            <h3 class="author-title">Al-Amin Hossain</h3>
-                            <p>UI/UX Designer</p>
+                            <h3 class="author-title">Tozi Elanda</h3>
+                            <p>Project Lead – <?= $siteName ?></p>
                         </div>
                         <div class="author-signature">
-                            <img src="<?=$siteLink?>/assets/images/about/about-signature.png" alt="">
+                            <img src="<?= $siteLink ?>/assets/images/about/about-signature.png" alt="Founder Signature">
                         </div>
                     </div>
                 </div>
@@ -253,27 +259,28 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
     <div class="container">
         <div class="row mb-55">
             <div class="col-lg-12 col-md-12">
-                <div class="itpro-section-title text-center  wow fadeInUp ">
-                    <h4 class="section-sub-title style4">OUR TEAM MEMBER</h4>
+                <div class="itpro-section-title text-center wow fadeInUp">
+                    <h4 class="section-sub-title style4">OUR TEAM</h4>
                     <div class="itpro-section-main-title">
-                        <h1> Professional Team <span style="color: #ff3c00;"> Member </span></h1>
+                        <h1> Meet Our <span style="color: #ff3c00;">Executive Team</span></h1>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="row">
+            <!-- CEO -->
             <div class="col-lg-3 col-md-6">
-                <div class="team-single_box  wow fadeInUp ">
+                <div class="team-single_box wow fadeInUp">
                     <div class="team_content">
-                        <h3 class="team_title">Tamzyn French</h3>
-                        <p class="team_text">Agency Design</p>
+                        <h3 class="team_title">John Smith</h3>
+                        <p class="team_text">Chief Executive Officer (CEO)</p>
                     </div>
                     <div class="team_thumb">
-                        <img src="<?=$siteLink?>/assets/images/team/team1.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/team/team1.png" alt="CEO - John Smith">
                         <div class="team_icon">
                             <ul>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
@@ -281,18 +288,19 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                     </div>
                 </div>
             </div>
+
+            <!-- CTO -->
             <div class="col-lg-3 col-md-6">
-                <div class="team-single_box  wow fadeInUp ">
+                <div class="team-single_box wow fadeInUp">
                     <div class="team_content">
-                        <h3 class="team_title">Tamzyn French</h3>
-                        <p class="team_text">Agency Design</p>
+                        <h3 class="team_title">Emma Johnson</h3>
+                        <p class="team_text">Chief Technology Officer (CTO)</p>
                     </div>
                     <div class="team_thumb">
-                        <img src="<?=$siteLink?>/assets/images/team/team2.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/team/team2.png" alt="CTO - Emma Johnson">
                         <div class="team_icon">
                             <ul>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
@@ -300,18 +308,19 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                     </div>
                 </div>
             </div>
+
+            <!-- CFO -->
             <div class="col-lg-3 col-md-6">
-                <div class="team-single_box  wow fadeInUp ">
+                <div class="team-single_box wow fadeInUp">
                     <div class="team_content">
-                        <h3 class="team_title">Tamzyn French</h3>
-                        <p class="team_text">Agency Design</p>
+                        <h3 class="team_title">Michael Brown</h3>
+                        <p class="team_text">Chief Financial Officer (CFO)</p>
                     </div>
                     <div class="team_thumb">
-                        <img src="<?=$siteLink?>/assets/images/team/team3.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/team/team3.png" alt="CFO - Michael Brown">
                         <div class="team_icon">
                             <ul>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
@@ -319,18 +328,19 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                     </div>
                 </div>
             </div>
+
+            <!-- CMO -->
             <div class="col-lg-3 col-md-6">
-                <div class="team-single_box  wow fadeInUp ">
+                <div class="team-single_box wow fadeInUp">
                     <div class="team_content">
-                        <h3 class="team_title">Tamzyn French</h3>
-                        <p class="team_text">Agency Design</p>
+                        <h3 class="team_title">Sophia Davis</h3>
+                        <p class="team_text">Chief Marketing Officer (CMO)</p>
                     </div>
                     <div class="team_thumb">
-                        <img src="<?=$siteLink?>/assets/images/team/team4.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/team/team4.png" alt="CMO - Sophia Davis">
                         <div class="team_icon">
                             <ul>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
@@ -338,6 +348,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -359,80 +370,84 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
     <div class="container">
         <div class="row pb-50">
             <div class="col-lg-12">
-                <div class="itpro-section-title  wow fadeInUp  pb-10">
-                    <h4 class="section-sub-title style1">ABOUT itpro COMPANY</h4>
+                <div class="itpro-section-title wow fadeInUp pb-10">
+                    <h4 class="section-sub-title style1">ABOUT OUR COMPANY</h4>
                     <div class="itpro-section-main-title">
                         <h1> Achieving New Horizons</h1>
-                        <h1> for Your <span style="color: #ff3c00;"> Business. </span></h1>
+                        <h1> for Your <span style="color: #ff3c00;"> Crypto Investments. </span></h1>
                     </div>
                 </div>
             </div>
-
         </div>
+
         <div class="row">
             <div class="case-study owl-carousel">
+                <!-- Case Study 1: Crypto Portfolio Management -->
                 <div class="col-lg-12">
-                    <div class="case-study-single-boxs  wow fadeInUp ">
+                    <div class="case-study-single-boxs wow fadeInUp">
                         <div class="case-study-thumbs">
-                            <img src="<?=$siteLink?>/assets/images/project/case1.png" alt="">
+                            <img src="<?=$siteLink?>/assets/images/project/case1.png" alt="Crypto Portfolio">
                             <div class="case-study-contents">
                                 <div class="case-study-title">
-                                    <h6> IT CONSULTING </h6>
-                                    <h3> <a href="portfolio-details.html"> Market Research</a></h3>
+                                    <h6> CRYPTO INVESTMENT </h6>
+                                    <h3> <a href="<?=$siteLink?>/about">Crypto Portfolio Management</a></h3>
                                 </div>
                                 <div class="case-button">
-                                    <a href="portfolio-details.html">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
+                                    <a href="<?=$siteLink?>/about">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Case Study 2: Bitcoin Investment Strategy -->
                 <div class="col-lg-12">
-                    <div class="case-study-single-boxs  wow fadeInUp ">
+                    <div class="case-study-single-boxs wow fadeInUp">
                         <div class="case-study-thumbs">
-                            <img src="<?=$siteLink?>/assets/images/project/case2.png" alt="">
+                            <img src="<?=$siteLink?>/assets/images/project/case2.png" alt="Bitcoin Investment">
                             <div class="case-study-contents">
                                 <div class="case-study-title">
-                                    <h6> FIGMA DESIGN </h6>
-                                    <h3> <a href="portfolio-details.html">Web Development</a></h3>
+                                    <h6> BITCOIN STRATEGY </h6>
+                                    <h3> <a href="<?=$siteLink?>/about">Bitcoin Investment Strategy</a></h3>
                                 </div>
                                 <div class="case-button">
-                                    <a href="portfolio-details.html">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
+                                    <a href="<?=$siteLink?>/about">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Case Study 3: Altcoin Market Analysis -->
                 <div class="col-lg-12">
-                    <div class="case-study-single-boxs  wow fadeInUp ">
+                    <div class="case-study-single-boxs wow fadeInUp">
                         <div class="case-study-thumbs">
-                            <img src="<?=$siteLink?>/assets/images/project/case3.png" alt="">
+                            <img src="<?=$siteLink?>/assets/images/project/case3.png" alt="Altcoin Market">
                             <div class="case-study-contents">
                                 <div class="case-study-title">
-                                    <h6> CYBER SECURITY </h6>
-                                    <h3> <a href="portfolio-details.html"> Network Security</a></h3>
+                                    <h6> ALTCOIN MARKET </h6>
+                                    <h3> <a href="<?=$siteLink?>/about">Altcoin Market Analysis</a></h3>
                                 </div>
                                 <div class="case-button">
-                                    <a href="portfolio-details.html">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
+                                    <a href="<?=$siteLink?>/about">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Case Study 4: DeFi Investment Opportunities -->
                 <div class="col-lg-12">
-                    <div class="case-study-single-boxs  wow fadeInUp ">
+                    <div class="case-study-single-boxs wow fadeInUp">
                         <div class="case-study-thumbs">
-                            <img src="<?=$siteLink?>/assets/images/project/case2.png" alt="">
+                            <img src="<?=$siteLink?>/assets/images/project/case2.png" alt="DeFi Investments">
                             <div class="case-study-contents">
                                 <div class="case-study-title">
-                                    <h6> FIGMA DESIGN </h6>
-                                    <h3> <a href="portfolio-details.html">Web Development</a></h3>
+                                    <h6> DECENTRALIZED FINANCE </h6>
+                                    <h3> <a href="<?=$siteLink?>/about">DeFi Investment Opportunities</a></h3>
                                 </div>
                                 <div class="case-button">
-                                    <a href="portfolio-details.html">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
+                                    <a href="<?=$siteLink?>/about">Read More <i class="flaticon flaticon-right-arrow"></i> </a>
                                 </div>
                             </div>
                         </div>
