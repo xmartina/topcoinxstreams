@@ -21,7 +21,10 @@ get('/contact', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
 });
 get('/register', function() {
-    header('location : https://account.topcoinxstreams.com/?a=register');
+    header('location : https://account.topcoinxstreams.com/?a=signup');
+});
+get('/register', function() {
+    header('location : https://account.topcoinxstreams.com/?a=login');
 });
 
 //post('/user/settings', function() {
