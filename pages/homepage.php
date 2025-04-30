@@ -11,12 +11,12 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
         <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
                 <div class="slider-content text-center">
-                    <h3 class="slider-sub-title"> IT SERVICES AGENCY </h3>
-                    <h1> IT Consulting Service For </h1>
-                    <h1> Your <span>Business</span> </h1>
+                    <h3 class="slider-sub-title">CRYPTO INVESTMENT PLATFORM</h3>
+                    <h1>Grow Your Wealth With</h1>
+                    <h1><span>Topcoin Xstreams</span></h1>
                     <div class="slider-button">
-                        <a href="#">Get Srarted<i class="flaticon flaticon-right-arrow"></i></a>
-                        <a class="slider-btn-two" href="#">Get Srarted<i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="<?=$accountLink?>/?a=signup">Get Started<i class="flaticon flaticon-right-arrow"></i></a>
+                        <a class="slider-btn-two" href="<?=$accountLink?>/?a=login">Login Dashboard<i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>
@@ -44,39 +44,38 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
 <div class="about-area">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7 col-md-12 ">
+            <div class="col-lg-7 col-md-12">
                 <div class="itpro-section-title wow fadeInUp pb-10">
-                    <h4 class="section-sub-title style1 ">ABOUT itpro COMPANY</h4>
+                    <h4 class="section-sub-title style1">ABOUT <?= $siteName ?></h4>
                     <div class="itpro-section-main-title">
-                        <h1> Achieving New Horizons</h1>
-                        <h1> for Your <span style="color: #ff3c00;"> Business. </span></h1>
+                        <h1> Empowering Your Future</h1>
+                        <h1> with <span style="color: #ff3c00;"> Smart Crypto Investments </span></h1>
                     </div>
-                    <p>Team is a diverse network of consultants and industry professionals in
-                        with a global mindset and a colaborative culure  in work to understand
-                        your issues and are driven to ask questions.</p>
+                    <p><?= $siteName ?> is a secure and innovative platform that enables users to invest in top cryptocurrencies with confidence.
+                        We combine blockchain technology with strategic financial tools to help you grow your digital assets effortlessly.</p>
                 </div>
 
-                <div class="dreamit-about-item  wow fadeInUp ">
+                <div class="dreamit-about-item wow fadeInUp">
                     <ul class="about-list">
-                        <li><span> Collaborative environment</span></li>
-                        <li><span> Our all service offerings to enhance. </span></li>
-                        <li><span> Simply drag, drop and customize.</span></li>
+                        <li><span> Real-time profit tracking and automated returns</span></li>
+                        <li><span> Transparent investment plans with secure wallets</span></li>
+                        <li><span> 24/7 access to your crypto portfolio and earnings</span></li>
                     </ul>
                     <div class="about-img">
-                        <img src="<?=$siteLink?>/assets/images/about/about-img-2.png" alt="img">
+                        <img src="<?= $siteLink ?>/assets/images/about/about-img-2.png" alt="Crypto Investment">
                     </div>
                 </div>
-                <div class="about-button  wow fadeInUp  pt-40">
-                    <a href="#">Get Srarted Now <i class="flaticon flaticon-right-arrow"></i></a>
+                <div class="about-button wow fadeInUp pt-40">
+                    <a href="<?= $siteLink ?>/investment-plans">Get Started Now <i class="flaticon flaticon-right-arrow"></i></a>
                 </div>
             </div>
+
             <div class="col-lg-5 col-md-12">
-                <div class="dreamit-about-thumb  wow fadeInUp ">
-                    <img src="<?=$siteLink?>/assets/images/about/about-thumb.png" alt="about thumb">
+                <div class="dreamit-about-thumb wow fadeInUp">
+                    <img src="<?= $siteLink ?>/assets/images/about/about-thumb.png" alt="Crypto About">
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 <!--==================================================-->
@@ -92,79 +91,84 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
     <div class="container">
         <div class="row align-items-center mb-55">
             <div class="col-lg-12 col-md-12">
-                <div class="itpro-section-title  wow fadeInUp  text-center">
-                    <h4 class="section-sub-title">ABOUT itpro COMPANY</h4>
+                <div class="itpro-section-title wow fadeInUp text-center">
+                    <h4 class="section-sub-title">WHAT WE OFFER</h4>
                     <div class="itpro-section-main-title">
-                        <h1> We Provide The Best <span style="color: #ff3c00;"> Service </span></h1>
+                        <h1> Empowering You With the Best <span style="color: #ff3c00;">Crypto Services</span></h1>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-lg-3 col-md-6 pl-0 ">
-                <div class="dreamit-service-box  wow fadeInUp ">
+            <!-- Service 1 -->
+            <div class="col-lg-3 col-md-6 pl-0">
+                <div class="dreamit-service-box wow fadeInUp">
                     <div class="em-service-icon">
-                        <img src="<?=$siteLink?>/assets/images/service/service-icon1.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/service/service-icon1.png" alt="Secure Wallet">
                     </div>
                     <div class="em-service-title">
-                        <h3> Security System </h3>
+                        <h3> Secure Wallet System </h3>
                     </div>
                     <div class="em-service-text">
-                        <p>Consutants and ndustry best professionas your issues and provid it solutions you.</p>
+                        <p>Multi-layer wallet security to keep your crypto assets protected at all times with industry best practices.</p>
                     </div>
                     <div class="service-button">
-                        <a href="#">Read More <i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="<?= $siteLink ?>/about">Read More <i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>
 
+            <!-- Service 2 -->
             <div class="col-lg-3 col-md-6 pl-0">
-                <div class="dreamit-service-box  wow fadeInUp ">
+                <div class="dreamit-service-box wow fadeInUp">
                     <div class="em-service-icon">
-                        <img src="<?=$siteLink?>/assets/images/service/service-icon2.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/service/service-icon2.png" alt="User Dashboard">
                     </div>
                     <div class="em-service-title">
-                        <h3> UX/UI Design </h3>
+                        <h3> Intuitive User Dashboard </h3>
                     </div>
                     <div class="em-service-text">
-                        <p>Consutants and ndustry best professionas your issues and provid it solutions you.</p>
+                        <p>Access your portfolio, track returns, and manage investments with a clean and responsive interface.</p>
                     </div>
                     <div class="service-button">
-                        <a href="#">Read More <i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="<?= $siteLink ?>/about">Read More <i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>
 
+            <!-- Service 3 -->
             <div class="col-lg-3 col-md-6 pl-0">
-                <div class="dreamit-service-box  wow fadeInUp ">
+                <div class="dreamit-service-box wow fadeInUp">
                     <div class="em-service-icon">
-                        <img src="<?=$siteLink?>/assets/images/service/service-icon3.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/service/service-icon3.png" alt="Analytics">
                     </div>
                     <div class="em-service-title">
-                        <h3> Data  Analysis </h3>
+                        <h3> Real-Time Data & Reports </h3>
                     </div>
                     <div class="em-service-text">
-                        <p>Consutants and ndustry best professionas your issues and provid it solutions you.</p>
+                        <p>Track your investment growth and performance with real-time analytics and profit calculations.</p>
                     </div>
                     <div class="service-button">
-                        <a href="#">Read More <i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="<?= $siteLink ?>/analytics">Read More <i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>
 
+            <!-- Service 4 -->
             <div class="col-lg-3 col-md-6 pl-0">
-                <div class="dreamit-service-box  wow fadeInUp ">
+                <div class="dreamit-service-box wow fadeInUp">
                     <div class="em-service-icon">
-                        <img src="<?=$siteLink?>/assets/images/service/service-icon4.png" alt="">
+                        <img src="<?= $siteLink ?>/assets/images/service/service-icon4.png" alt="Support">
                     </div>
                     <div class="em-service-title">
-                        <h3> Digital Marketing </h3>
+                        <h3> 24/7 Customer Support </h3>
                     </div>
                     <div class="em-service-text">
-                        <p>Consutants and ndustry best professionas your issues and provid it solutions you.</p>
+                        <p>We’re here to help you anytime — from investment guidance to technical support across all platforms.</p>
                     </div>
                     <div class="service-button">
-                        <a href="#">Read More <i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="<?= $siteLink ?>/support">Read More <i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>

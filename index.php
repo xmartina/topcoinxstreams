@@ -11,6 +11,9 @@ get('/', function() {
 get('/about', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/aboutpage.php';
 });
+get('/analytics', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/aboutpage.php';
+});
 get('/services', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/servicespage.php';
 });
@@ -19,6 +22,12 @@ get('/faq', function() {
 });
 get('/contact', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
+});
+get('/support', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
+});
+get('/investment-plans', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/planspage.php';
 });
 get('/register', function() {
     header('location : https://account.topcoinxstreams.com/?a=signup');
