@@ -1,28 +1,43 @@
 <?php
-$sql_back = "SELECT * FROM hm2_plans";
+$sql_back = "SELECT * FROM hm2_plans WHERE status='on'";
 $get_plan = $conn->query($sql_back);
-if ($get_plan && $get_plan->num_rows > 0){
-    while ($plan = $get_plan->fetch_assoc()) {
+
+if ($get_plan && $get_plan->num_rows > 0) {
+    echo '<div class="row align-items-center">';
+    while ($row = $get_plan->fetch_assoc()) {
+        // Format deposit range
+        $deposit_range = '$' . number_format($row['min_deposit'], 2);
+        if ($row['max_deposit'] > $row['min_deposit']) {
+            $deposit_range .= ' - $' . number_format($row['max_deposit'], 2);
+        }
+
+        // Split description into list items
+        $description_items = explode("\n", $row['description']);
         ?>
         <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="pricing-single-items wow fadeInUp">
                 <div class="pricing-thumb pt-25">
-                    <img src="<?=$siteLink?>/assets/images/resource/basic.png" alt="Pricing Img">
+                    <img src="<?=$siteLink?>/assets/images/resource/basic.png" alt="<?= htmlspecialchars($row['name']) ?>">
                 </div>
                 <div class="pricing-title">
-                    <h3><?= htmlspecialchars($plan['name']) ?></h3>
+                    <h3><?= htmlspecialchars($row['name']) ?></h3>
                 </div>
                 <div class="pricing-item-text mb-15">
                     <span class="currency">$</span>
-                    <span class="tk"><?= number_format($plan['min_deposit'], 2) ?> - <?= number_format($plan['max_deposit'], 2) ?></span>
-                    <span class="month"> | <?= number_format($plan['percent'], 2) ?>% ROI </span>
+                    <span class="tk"><?= $deposit_range ?></span>
+                    <?php if ($row['percent']) : ?>
+                        <span class="month"><?= $row['percent'] ?>% daily</span>
+                    <?php endif; ?>
                 </div>
                 <div class="pricing-body">
                     <div class="pricing-feature mb-40">
                         <ul>
-                            <li><b>Description:</b></li>
-                            <li><?= nl2br(htmlspecialchars($plan['description'])) ?></li>
-                            <li><b>Bonus:</b> <?= number_format($plan['bonus_percent'], 2) ?>%</li>
+                            <?php foreach ($description_items as $item) : ?>
+                                <li><?= htmlspecialchars(trim($item)) ?></li>
+                            <?php endforeach; ?>
+                            <?php if ($row['bonus_percent'] > 0) : ?>
+                                <li><b>Special bonus: <?= $row['bonus_percent'] ?>%</b></li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>
@@ -35,7 +50,8 @@ if ($get_plan && $get_plan->num_rows > 0){
         </div>
         <?php
     }
+    echo '</div>'; // Close row div
 } else {
-    echo '<p>No active plans found.</p>';
+    echo '<p>No investment plans available at the moment.</p>';
 }
 ?>
