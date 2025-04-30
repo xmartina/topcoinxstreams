@@ -2,6 +2,12 @@
     .pricing-item-text span {
         font-size: 32px;
     }
+    .pricing-section {
+        padding: 105px 0 10px;
+    }
+    .testimonial-area.style {
+        padding: 75px 0 104px;
+    }
 </style>
 <?php
 $sql_back = "SELECT * FROM hm2_plans ORDER BY percent ASC ";
