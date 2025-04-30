@@ -39,6 +39,11 @@
 
     <!-- modernizr js -->
     <script src="<?=$siteLink?>/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <style>
+        .mean-container .mean-bar::before {
+            content: "Topcoin Xstreams";
+        }
+    </style>
 </head>
 
 <body>
