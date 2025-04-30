@@ -640,18 +640,18 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
     <div class="container">
         <div class="row pb-60">
             <div class="col-lg-12">
-                <div class="itpro-section-title text-center  wow fadeInUp ">
-                    <h4 class="section-sub-title style7"> LATEST BLOG</h4>
+                <div class="itpro-section-title text-center wow fadeInUp">
+                    <h4 class="section-sub-title style7">LATEST BLOG</h4>
                     <div class="itpro-section-main-title">
-                        <h1>We’re here to share story</h1>
-                        <h1> from Latest News</h1>
+                        <h1>Latest News and Insights</h1>
+                        <h1>in Crypto Investments</h1>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6">
-                <div class="single-blog-box  wow fadeInUp ">
+                <div class="single-blog-box wow fadeInUp">
                     <div class="single-blog-thumb">
                         <img src="<?=$siteLink?>/assets/images/resource/blog1.jpg" alt="">
                     </div>
@@ -659,13 +659,13 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                         <div class="meta-blog">
                             <p><i class="bi bi-calendar2-check"></i>April 01, 2023</p>
                         </div>
-                        <a href="blog-details.html">Popular Consultants are big Meetup 2023</a>
-                        <a class="blog-button" href="blog-grid.html">Read More<i class="bi bi-plus"></i></a>
+                        <a href="javascript:void(0);">Understanding Crypto Market Trends</a>
+                        <a class="blog-button" href="javascript:void(0);">Read More<i class="bi bi-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="single-blog-box  wow fadeInUp ">
+                <div class="single-blog-box wow fadeInUp">
                     <div class="single-blog-thumb">
                         <img src="<?=$siteLink?>/assets/images/resource/blog2.jpg" alt="">
                     </div>
@@ -673,13 +673,13 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                         <div class="meta-blog">
                             <p><i class="bi bi-calendar2-check"></i>April 01, 2023</p>
                         </div>
-                        <a href="blog-details.html">How to Increase Business Products Sale</a>
-                        <a class="blog-button" href="blog-grid.html">Read More<i class="bi bi-plus"></i></a>
+                        <a href="javascript:void(0);">How to Start Your Crypto Investment Journey</a>
+                        <a class="blog-button" href="javascript:void(0);">Read More<i class="bi bi-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="single-blog-box  wow fadeInUp ">
+                <div class="single-blog-box wow fadeInUp">
                     <div class="single-blog-thumb">
                         <img src="<?=$siteLink?>/assets/images/resource/blog3.jpg" alt="">
                     </div>
@@ -687,8 +687,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                         <div class="meta-blog">
                             <p><i class="bi bi-calendar2-check"></i>April 01, 2023</p>
                         </div>
-                        <a href="blog-details.html">Top 10 Most Popular IT Business Tuips</a>
-                        <a class="blog-button" href="blog-grid.html">Read More<i class="bi bi-plus"></i></a>
+                        <a href="javascript:void(0);">Top Strategies for Crypto Portfolio Growth</a>
+                        <a class="blog-button" href="javascript:void(0);">Read More<i class="bi bi-plus"></i></a>
                     </div>
                 </div>
             </div>
