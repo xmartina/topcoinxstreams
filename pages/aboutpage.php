@@ -1,5 +1,5 @@
 <?php
-$pageName = 'Home';
+$pageName = 'About Us';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/include/config.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
@@ -262,7 +262,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
             <div class="col-md-6 col-lg-4">
                 <div class="counter-single-item d-flex">
                     <div class="counter-content">
-                        <h1><span class="counter">5,000</span>+</h1>
+                        <h1><span class="counter">263</span>k+</h1>
                         <div class="counter-title">
                             <h4>Registered</h4>
                             <h3>Investors</h3>
@@ -274,7 +274,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
             <div class="col-md-6 col-lg-4">
                 <div class="counter-single-item d-flex">
                     <div class="counter-content">
-                        <h1><span class="counter">850</span>+</h1>
+                        <h1><span class="counter">850</span>k+</h1>
                         <div class="counter-title">
                             <h4>Completed</h4>
                             <h3>Transactions</h3>
@@ -307,80 +307,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
 <!--==================================================-->
 <!-- Start itpro Team Area -->
 <!--==================================================-->
-<div class="team_area style-two">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="itpro-section-title text-center wow fadeInUp pb-50">
-                    <h4 class="section-sub-title style10">Team Member</h4>
-                    <div class="itpro-section-main-title">
-                        <h1 >Let’s Meet with Our</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
 
-            <div class="col-lg-4 col-md-6">
-                <div class="single_team wow fadeInUp ">
-                    <div class="single_team_thumb1">
-                        <img src="assets/images/resource/team-1.jpg" alt="image">
-                    </div>
-                    <div class="single_team_content">
-                        <div class="team-title">
-                            <h4> Silvia Garden </h4>
-                            <span> Designer </span>
-                        </div>
-                        <div class="single_team_icon">
-                            <a href="#"> <i class="bi bi-facebook"></i> </a>
-                            <a href="#"> <i class="bi bi-twitter"></i> </a>
-                            <a href="#"><i class="bi bi-dribbble"></i></a>
-                            <a href="#"> <i class="bi bi-instagram"> </i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single_team wow fadeInUp ">
-                    <div class="single_team_thumb1">
-                        <img src="assets/images/resource/team-2.jpg" alt="image">
-                    </div>
-                    <div class="single_team_content">
-                        <div class="team-title">
-                            <h4> Monalisha Shen </h4>
-                            <span> IT-Executive </span>
-                        </div>
-                        <div class="single_team_icon">
-                            <a href="#"> <i class="bi bi-facebook"></i> </a>
-                            <a href="#"> <i class="bi bi-twitter"></i> </a>
-                            <a href="#"><i class="bi bi-dribbble"></i></a>
-                            <a href="#"> <i class="bi bi-instagram"> </i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single_team wow fadeInUp ">
-                    <div class="single_team_thumb1">
-                        <img src="assets/images/resource/team-3.jpg" alt="image">
-                    </div>
-                    <div class="single_team_content">
-                        <div class="team-title">
-                            <h4>Bubli Khanam</h4>
-                            <span>Developer</span>
-                        </div>
-                        <div class="single_team_icon">
-                            <a href="#"> <i class="bi bi-facebook"></i> </a>
-                            <a href="#"> <i class="bi bi-twitter"></i> </a>
-                            <a href="#"><i class="bi bi-dribbble"></i></a>
-                            <a href="#"> <i class="bi bi-instagram"> </i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!--==================================================-->
 <!-- End itpro Team Area -->
 <!--==================================================-->
