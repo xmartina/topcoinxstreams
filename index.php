@@ -20,8 +20,8 @@ get('/services', function() {
 get('/service-details', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/servicespage.php';
 });
-get('/faq', function() {
-    include $_SERVER['DOCUMENT_ROOT'] . '/pages/faqpage.php';
+get('/terms', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/termspage.php';
 });
 get('/contact', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
