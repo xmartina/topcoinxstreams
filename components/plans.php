@@ -4,7 +4,7 @@
     }
 </style>
 <?php
-$sql_back = "SELECT * FROM hm2_plans ORDER BY DESC ";
+$sql_back = "SELECT * FROM hm2_plans ORDER BY percent DESC ";
 $get_plan = $conn->query($sql_back);
 
 if ($get_plan && $get_plan->num_rows > 0) {
