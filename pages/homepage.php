@@ -588,7 +588,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                 </div>
             </div>
         </div>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/components/plans.php'; ?> ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/components/plans.php'; ?>
     </div>
 </div>
 
