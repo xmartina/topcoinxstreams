@@ -20,7 +20,7 @@ get('faq', function() {
 get('contact', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
 });
-get('register', function() {
+get('/register', function() {
     header('location : https://account.topcoinxstreams.com/?a=register');
 });
 
