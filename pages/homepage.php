@@ -517,6 +517,26 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
 <!--==================================================-->
 
 <!--==================================================-->
+<!-- Start Service Section -->
+<!--===================================================-->
+<div class="pricing-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="itpro-section-title text-center wow fadeInUp pb-60">
+                    <h4 class="section-sub-title style10"> Our Pricing</h4>
+                    <div class="itpro-section-main-title">
+                        <h1>Choose Your Best <span style="color: #FF3C00;">Pricing Plans</span></h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/components/plans.php'; ?> ?>
+    </div>
+</div>
+
+<!--==================================================-->
 <!-- Start itpro Counter Area Css -->
 <!--==================================================-->
 <div class="counter-area">
