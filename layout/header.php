@@ -64,7 +64,7 @@
                     <a class="logo_img" href="<?=$siteLink?>" title="itpro">
                         <img src="<?=$siteLink?>/assets/images/logo.png" alt="logo">
                     </a>
-                    <a class="main_sticky" href="index.html" title="itpro">
+                    <a class="main_sticky" href="/" title="itpro">
                         <img src="<?=$siteLink?>/assets/images/logo.png" alt="logo">
                     </a>
                 </div>
@@ -72,44 +72,18 @@
             <div class="col-lg-9 pl-0 pr-0">
                 <nav class="itpro_menu">
                     <ul class="nav_scroll">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">Services <span><i class="fas fa-angle-down"></i></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="service.html">Our Service</a></li>
-                                <li><a href="service-details.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Page <span><i class="fas fa-angle-down"></i></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="service.html">Our Service</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                <li><a href="testimonial.html">Testimonial</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#">Blog <span><i class="fas fa-angle-down"></i></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid.html">Blog Gird</a></li>
-                                <li><a href="blog-list.html">Blog List</a></li>
-                                <li><a href="blog-2column.html">Blog-2Column</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                     <!-- header menu search button -->
                     <div class="header-search-button search-box-outer">
                         <a href="#"><i class="fas fa-search"></i></a>
                     </div>
                     <div class="header-button">
-                        <a href="#">Get Srarted<i class="flaticon flaticon-right-arrow"></i></a>
+                        <a href="/register">Get Srarted<i class="flaticon flaticon-right-arrow"></i></a>
                     </div>
                 </nav>
             </div>
@@ -122,37 +96,11 @@
     <div class="mobile-menu">
         <nav class="itpro_menu">
             <ul class="nav_scroll">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Services </a>
-                    <ul class="sub-menu">
-                        <li><a href="service.html">Our Service</a></li>
-                        <li><a href="service-details.html">Service Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Page </a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="service.html">Our Service</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
-                        <li><a href="404.html">404</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Blog </a>
-                    <ul class="sub-menu">
-                        <li><a href="blog-grid.html">Blog Gird</a></li>
-                        <li><a href="blog-list.html">Blog List</a></li>
-                        <li><a href="blog-2column.html">Blog-2Column</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
     </div>
