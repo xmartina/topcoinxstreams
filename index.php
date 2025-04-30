@@ -17,6 +17,9 @@ get('/analytics', function() {
 get('/services', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/servicespage.php';
 });
+get('/service-details', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/servicespage.php';
+});
 get('/faq', function() {
     include $_SERVER['DOCUMENT_ROOT'] . '/pages/faqpage.php';
 });
