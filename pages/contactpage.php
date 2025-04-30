@@ -82,7 +82,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                         <div class="cda-content-inner">
                             <h4>Our Email Address</h4>
                             <?php
-                            foreach ($siteEmail as $email){
+                            foreach ($siteEmails as $email){
                             ?>
                             <p><?=$email?><br></p>
                             <?php } ?>
