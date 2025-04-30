@@ -1,0 +1,1270 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    .itpro_nav_manu {
+        padding: 0 130px 0 120px;
+    }
+
+    .itpro_menu>ul>li>a {
+        margin: 37px 6px !important;
+        font-size: 15px !important;
+    }
+
+    .dreamit-about-thumb img {
+        width: 100%;
+    }
+
+    .about_thumb {
+        margin-left: -25px;
+    }
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .itpro_nav_manu {
+        padding: 0 50px 0 40px;
+    }
+
+    .itpro_menu>ul>li>a {
+        font-size: 14px;
+        margin: 29px 5px;
+    }
+
+    .header-search-button {
+        margin-left: 9px;
+    }
+
+    .header-button {
+        margin-left: 11px;
+    }
+
+    .slider-content h1 {
+        font-size: 45px;
+        color: #fff;
+        line-height: 1;
+    }
+   
+    /*service area*/
+
+    .em-service_title h2 {
+        font-size: 19px;
+    }
+
+  .dreamit-service_box {
+        padding: 0px 10px 30px;
+    }
+
+    .em-service_text p {
+        font-size: 14px;
+    }
+
+    .service-shape1 img {
+        width: 50%;
+    }
+
+    .service-shape1 {
+        left: 60px;
+        bottom: -132px;
+    }
+
+    .dreamit-service-box {
+        padding: 40px 22px 30px;
+    }
+    .ceo-cod-area {
+        padding: 90px 0 90px;
+    }
+
+    /*start section title*/
+    .itpro-section-main-title h1 {
+        font-size: 38px;
+    }
+
+    /*start about area*/
+
+    .about-area .dreamit-about-thumb img {
+        width: 96%;
+    }
+
+    .about_area.style-two .about_thumb {
+        margin-left: 0;
+    }
+
+    .about_area.style-two .about_thumb img {
+        width: 100%;
+    }
+
+    .about_area.style-two h3.about-title {
+        font-size: 14px;
+    }
+
+    .about_area.style-two p.about-description {
+        font-size: 12px;
+    }
+
+    /*start Team*/
+    .team_icon {
+        width: 88%;
+    }
+
+    /*start counter*/
+    .row.counter_bg {
+        margin-top: -142px;
+    }
+
+
+    /*Start Inner Page*/
+    /* Feature Area */
+
+    .tabs li a {
+        padding: 5px 16px;
+    }
+   
+    .tabs_item img {
+        width: 160px;
+
+    }
+
+    .tabs-inner-list {
+        overflow: hidden;
+    }
+
+    ul.tabs-inner-list li {
+        font-size: 14px;
+    }
+    
+     /* Satert Service Details */
+
+     .service-details-icon {
+        float: inherit;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .service-page-title2 h1 {
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .service-details-icon-box {
+        margin-left: 0px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .widget-service-details-icon p {
+        font-size: 12px;
+    }
+
+    .service-work-process-title h4 {
+        font-size: 18px;
+    }
+
+    .widget-title2 h3 {
+        font-size: 36px;
+    }
+    /* Start Pricing area */
+    .pricing-single-items {
+        padding: 34px 0 15px;
+    }
+
+    .about-shape-thumb3 {
+        display: none;
+    }
+
+    .csd-info {
+        padding: 0 44px;
+    }
+
+    .em-blog-title h2 {
+        font-size: 20px;
+    }
+
+    .blog-section .blog-content-text h5 {
+        font-size: 28px;
+    }
+
+    .calender-area {
+        height: 596px;
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .itpro_nav_manu {
+        display: none;
+    }
+
+
+    .sticky {
+        position: relative !important;
+    }
+
+    /*slider area*/
+    .slider-content h1 {
+        font-size: 40px;
+    }
+
+
+
+    /*about area*/
+
+    .about-area .dreamit-about-thumb {
+        margin-top: 30px;
+    }
+
+    .about_thumb {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+   
+    .team_icon {
+        width: 55%;
+    }
+
+    /* Faq area style */
+
+    .faq_area.style {
+        background-position: left;
+    }
+
+    /* counter area */
+
+    .counter-single-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-single-item::before, .counter-single-item::after {
+        display: none;
+    }
+
+    /* case study area */
+    
+    .case-study-contents {
+        left: 24px;
+    }
+
+
+    /*Start Inner page Ablout areas*/
+
+    .abouts_thumb img {
+        width: 100%;
+    }
+
+    /*StartF Frature*/
+
+    .dreamit-icon-list ul li {
+        display: inherit;
+    }
+
+    ul.tabs-inner-list li {
+        display: inherit;
+    }
+ 
+
+    /*subscribe area*/
+    .style-two.subscribe-area {
+        padding: 0 0 0 0;
+    }
+
+    .style-two .subscribe-title h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .subscribe-icon {
+        margin-right: 26px;
+    }
+
+    .subscribe-title2 h1 {
+        font-size: 22px;
+    }
+
+    .subscribe-title2 {
+        overflow: hidden;
+    }
+
+    .subscribe-title2 p {
+        font-size: 18px;
+    }
+
+    /* Start About area three */
+    .style-three.about-area .dreamit-about-thumb {
+        margin: 0;
+    }
+
+    .about-shape-thumb3 {
+        display: none;
+    }
+
+    /* call do action area */
+
+    .call-do-action-content h2 {
+        font-size: 37px;
+    }
+
+    /* Bridcumb area */
+    .britcam-shape {
+        width: 45%;
+    }
+
+
+    .britcam-shape {
+        width: 46%;
+    }
+
+    .breadcumb-content ul li a {
+        font-size: 14px;
+    }
+
+    .upp.breadcumb-content ul li {
+        font-size: 15px;
+    }
+
+    /* Satert Service Details */
+
+    .service-details-icon {
+        float: inherit;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .service-page-title2 h1 {
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .service-details-icon-box {
+        margin-left: 0px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+
+    .widget-title2 h3 {
+        font-size: 36px;
+    }
+
+    /* Start Pricing area */
+    .pricing-single-items {
+        padding: 34px 0 15px;
+    }
+
+    .about-shape-thumb3 {
+        display: none;
+    }
+
+    .case-study-intro {
+        padding: 20px 30px;
+    }
+
+    .case-study-details .csd-info {
+        padding: 0 5px !important;
+    }
+
+    .csd-title h3 {
+        font-size: 20px;
+    }
+
+    .csd-info strong {
+        width: 107px;
+    }
+    .csd-info ul li {
+        font-size: 12px;
+    }
+
+    .csd-social-icon li i {
+        height: 30px;
+        width: 32px;
+        line-height: 30px;
+    }
+
+    .em-blog-title h2 {
+        font-size: 20px;
+    }
+
+    .blog-section .blog-content-text h5 {
+        font-size: 22px;
+    }
+
+  
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .itpro_nav_manu {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    /*slider area*/
+    .slider-area {
+        height: 1050px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .about-img {
+        right: -23px;
+    }
+
+    /* section title */
+    .itpro-section-main-title h1 {
+        font-size: 35px;
+    }
+
+    /* about button */
+    .dreamit-about-thumb {
+        margin-top: 30px;
+    }
+
+    .about_thumb {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Start team area */
+
+    .team_icon {
+        width: 36%;
+    }
+    /* case study area */
+
+    .owl-nav {
+        top: -88px;
+    }
+
+    .case-study-contents {
+        left: 16px;
+    }
+
+   /* counter area */
+
+   .row.counter_bg {
+        margin-top: -183px;
+    }
+    .counter-single-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-single-item::before, .counter-single-item::after {
+        display: none;
+    }
+
+    /* Faq study area */
+
+    .faq_area.style {
+        background-position: left;
+    }
+
+    .email-content {
+        text-align: left;
+    }
+
+    .email-shape1 {
+        display: none;
+    }
+
+    /*Start Inner page Ablout areas*/
+
+    .singles_abouts_boxs.wow.fadeInUp.animated {
+        margin-bottom: 60px;
+    }
+
+    .abouts_thumb img {
+        width: 100%;
+    }
+
+    /*StartF Frature*/
+
+    ul.tabs-inner-list li {
+        display: inherit;
+        font-size: 14px;
+    }
+
+    ul.tabs-inner-list li {
+        display: inherit;
+    }
+
+    .footer-bottom-content {
+        text-align: left;
+    }
+
+     /* Start About area three */
+     .style-three.about-area .dreamit-about-thumb {
+        margin: 0;
+    }
+
+    .about-shape-thumb3 {
+        display: none;
+    }
+
+    /* call do action area */
+    
+    .call-do-action-content h2 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .call-do-action-content p {
+        width: 100%;
+    }
+
+    /* Bridcumb area */
+
+    .britcam-shape {
+        width: 46%;
+    }
+
+    .breadcumb-content ul li a {
+        font-size: 14px;
+    }
+
+    .upp.breadcumb-content ul li {
+        font-size: 15px;
+    }
+
+    /* Satert Service Details */
+
+    .service-details-icon {
+        float: inherit;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .service-page-title2 h1 {
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .service-details-icon-box {
+        margin-left: 0px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+
+    .widget-title2 h3 {
+        font-size: 36px;
+    }
+
+    /* Start Pricing area */
+    .pricing-single-items {
+        padding: 34px 0 15px;
+    }
+
+    .about-area.style-three.upper1 .dreamit-about-thumb img {
+        width: 100%;
+    }
+
+    .about-area.style-three.upper1 .dreamit-about-thumb {
+        margin: 0;
+    }
+
+    .about-shape-thumb3{
+        display: none;
+    }
+
+    .extra-progress {
+        padding: 0 0 0 10px;
+    }
+
+    .case-study-content-inner::before {
+        height: 220px;
+    }
+
+    .case-study-intro {
+        padding: 25px;
+    }
+      
+    
+
+
+ 
+
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+     .itpro_nav_manu {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    /*slider area*/
+    .slider-area {
+        height: 935px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .about-img {
+        right: -23px;
+    }
+
+    /* section title */
+    .itpro-section-main-title h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /* about area */
+    .dreamit-about-thumb {
+        margin-top: 30px;
+    }
+
+    .dreamit-about-thumb img {
+        width: 100%;
+    }
+
+    .about-img img {
+        display: none;
+    }
+
+    /*Start About area styletwo */
+
+    .about_thumb {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .about_thumb img {
+        width: 100%;
+    }
+
+    /* Start team area */
+
+    .team_icon {
+        width: 42%;
+    }
+
+    /* case study area */
+
+    .owl-nav {
+        top: -88px;
+    }
+
+    .case-study-contents {
+        left: 16px;
+    }
+
+   /* counter area */
+
+   .row.counter_bg {
+        margin-top: -183px;
+    }
+
+    .counter-single-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-single-item::before, .counter-single-item::after {
+        display: none;
+    }
+
+    /*Start Testimonial area style */
+
+    .testimonial-area.style .testimonial-item::before {
+        right: 16%;
+        width: 17%;
+    }
+
+    .testi-star {
+        display: none;
+    }
+
+    /* Faq study area */
+
+    .faq_area.style {
+        background-position: left;
+    }
+
+    .email-content {
+        text-align: left;
+    }
+
+    .email-shape1 {
+        display: none;
+    }
+
+
+    /*Start Inner page Ablout areas*/
+
+    .singles_abouts_boxs.wow.fadeInUp.animated {
+        margin-bottom: 60px;
+    }
+
+    .abouts_thumb img {
+        width: 100%;
+    }
+
+    .abouts_titles {
+        left: 0;
+    }
+
+    .abouts_titles h3 {
+        font-size: 20px;
+    }
+
+    .abouts_icons {
+        right: -20px;
+    }
+
+    /*StartF Frature*/
+
+
+    ul.tabs-inner-list li {
+        display: inherit;
+    }
+
+    .tabs li a {
+
+        padding: 5px 15px;
+    }
+
+    /*subscribe */
+    .subscribe {
+        padding: 50px;
+    }
+
+    .style-two.subscribe-area {
+        padding: 0;
+    }
+
+    .style-two .subscribe-title h1 {
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .style-two .footer-bg {
+        padding: 55px 0 75px;
+    }
+
+    .style-two .footer-bottom-area {
+        height: 95px;
+    }
+
+    .subscribe-icon {
+        margin-right: 25px;
+    }
+
+    .subscribe-icon i {
+        font-size: 30px;
+        height: 70px;
+        width: 70px;
+        line-height: 72px;
+    }
+
+    .subscribe-title2 h1 {
+        font-size: 22px;
+    }
+
+    .subscribe-title2 p {
+        font-size: 16px;
+    }
+
+    .subscribe-area {
+        padding: 30px 35px 40px;
+    }
+
+    .recent-post-thumb1 {
+        float: inherit;
+    }
+
+    /* Start Footer Bottm */
+    .footer-bottom-content {
+        text-align: left;
+    }
+
+    /* Start About area three */
+    .style-three.about-area .dreamit-about-thumb {
+        margin: 0;
+    }
+
+    .about-shape-thumb3 {
+        display: none;
+    }
+
+    /* call do action area */
+    
+    .call-do-action-content h2 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .call-do-action-content p {
+        width: 100%;
+    }
+
+    /* Bridcumb area */
+
+    .britcam-shape {
+        display: none;
+    }
+
+     /* Satert Service Details */
+
+     .service-page-title h1 {
+        font-size: 32px;
+    }
+     .service-details-icon {
+        float: inherit;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .service-page-title2 h1 {
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .service-details-icon-box {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+
+    .widget-title2 h3 {
+        font-size: 36px;
+    }
+
+    /* Start Pricing area */
+    .pricing-single-items {
+        padding: 34px 0 15px;
+    }
+
+    .about-area.style-three.upper1 .dreamit-about-thumb img {
+        width: 100%;
+    }
+    .about-area.style-three.upper1 .dreamit-about-thumb {
+        margin: 0;
+    }
+    .about-shape-thumb3{
+        display: none;
+    }
+    .extra-progress {
+        padding: 0 0 0 10px;
+    }
+
+    .case-study-content-inner::before {
+        height: 220px;
+    }
+    .case-study-intro {
+        padding: 17px;
+    }
+
+      
+      
+
+    
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .itpro_nav_manu {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    /*slider area*/
+    .slider-area {
+        height: 923px;
+    }
+
+    .slider-content h1 {
+        font-size: 21px;
+    }
+
+    .about-img {
+        right: -23px;
+    }
+
+    .slider-button a {
+        padding: 9px 20px;
+        margin-bottom: 10px;
+    }
+
+    
+    .slider-button a::after {
+        display: none;
+    }
+
+    .slider-shape {
+        display: none;
+    }
+    
+    /* section title */
+    .itpro-section-main-title h1 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    h4.section-sub-title {
+        font-size: 12px;
+    }
+
+    h4.section-sub-title.style1 {
+        margin-left: 0;
+    }
+
+    h4.section-sub-title::before, h4.section-sub-title::after {
+        display: none;
+    }
+
+    /* about area */
+    .dreamit-about-thumb {
+        margin-top: 30px;
+    }
+
+    .dreamit-about-thumb img {
+        width: 100%;
+    }
+
+    .about-img img {
+        display: none;
+    }
+    ul.about-list li span {
+        font-size: 13px;
+        line-height: 37px;
+    }
+
+    /*Start About area styletwo */
+
+    .about_thumb {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .about_thumb img {
+        width: 100%;
+    }
+
+    .about_author {
+        display: inherit;
+    }
+
+    .author-signature {
+        margin-left: 0;
+    }
+
+    /* Start team area */
+
+    .team_icon {
+        width: 62%;
+    }
+
+    /* case study area */
+
+   .case-study .owl-nav {
+        top: -88px;
+        display: none;
+    }
+
+    .case-study-contents {
+        left: 9px;
+    }
+
+   /* counter area */
+
+   .row.counter_bg {
+        margin-top: -183px;
+    }
+
+    .counter-single-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-single-item::before, .counter-single-item::after {
+        display: none;
+    }
+
+    /*Start Testimonial area style */
+
+    .testimonial-area.style .testimonial-item {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 3px 10px;
+    }
+
+    .testimonial-area.style .author_thumb {
+        float: inherit;
+        margin-top: 40px;
+        left: 0;
+    }
+
+    .testimonial-area.style .testi-author {
+        margin-left: 0;
+    }
+
+    .testimonial-area.style .testimonial-text p {
+        padding-top: 15px;
+    }
+
+    .testimonial-area.style .testimonial-item::before {
+        display: none;
+    }
+
+    .testi-star {
+        display: none;
+    }
+
+    /* Faq study area */
+
+    .faq_area.style {
+        background-position: left;
+    }
+
+    .accordion li a {
+        font-size: 13px;
+    }
+
+    .email-content {
+        text-align: left;
+    }
+
+    .email-content h4 {
+        font-size: 16px;
+    }
+
+    .email-shape1 {
+        display: none;
+    }
+
+    .footer-bottom-content {
+        text-align: left;
+    }
+
+
+    /*Start Inner page Ablout areas*/
+
+    .singles_abouts_boxs {
+        margin-bottom: 60px;
+    }
+
+    .abouts_thumb img {
+        width: 100%;
+    }
+
+    .abouts_titles {
+        left: 0;
+    }
+
+    .abouts_titles h3 {
+        padding: 30px 96px 30px 30px;
+        font-size: 16px;
+    }
+
+    .abouts_icons {
+        top: 36px;
+    }
+
+    .upper.abouts_titles {
+        right: 0;
+        left: inherit;
+    }
+
+
+    /*StartF Frature*/
+
+    ul.tabs-inner-list li {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .tabs li a {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .tabs_item img {
+        margin-bottom: 20px;
+    }
+    .testi-counter-title p {
+        font-size: 15px;
+    }
+
+    /*Start Faq sections */
+    .accordion.style1 li a {
+        font-size: 12px;
+    }
+
+    /* subscribe area */
+    .subscribe {
+        padding: 55px 20px 55px;
+    }
+
+    .style-two .subscribe-title h1 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .subscribe-icon {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-icon i {
+        height: 70px;
+        width: 70px;
+        font-size: 25px;
+        line-height: 79px;
+    }
+
+    .subscribe-title2 h1 {
+        font-size: 23px;
+    }
+
+    /* Bridcumb area */
+
+    .britcam-shape {
+        display: none;
+    }
+
+    /* Satert Service Details */
+
+    .service-page-title h1 {
+        font-size: 24px;
+    }
+    .service-details-icon {
+        float: inherit;
+        margin-top: 10px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .service-page-title2 h1 {
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .service-details-icon-box {
+        margin-left: 0px;
+    }
+
+    .service-details-thumb img {
+        width: 100%;
+    }
+
+    .widget-service-details-icon p {
+        font-size: 12px;
+    }
+
+    .service-work-process-title h4 {
+        font-size: 20px;
+    }
+
+    .widget-title2 h3 {
+        font-size: 36px;
+    }
+    .breadcumb-content h1 {
+        font-size: 35px;
+    }
+    .service-page-title2 h1 {
+        line-height: 37px;
+    }
+
+    /* Start Pricing area */
+    .pricing-single-items {
+        padding: 34px 0 15px;
+    }
+
+    .about-area.style-three.upper1 .dreamit-about-thumb img {
+        width: 100%;
+    }
+    .about-area.style-three.upper1 .dreamit-about-thumb {
+        margin: 0;
+    }
+
+    .about-shape-thumb3{
+        display: none;
+    }
+    .extra-progress {
+        padding: 0 0 0 10px;
+    }
+
+    .cda-content-inner h4 {
+        font-size: 14px;
+    }
+
+    .case-study-intro {
+        padding: 12px;
+    }
+
+    .em-blog-title h2 {
+        font-size: 16px;
+    }
+
+    .calender-area {
+        height: 590px;
+    }
+
+    .blog-section .blog-content-text h5 {
+        font-size: 21px;
+    }
+
+
+
+
+}
+
+
+
+
+/*xl device min width*/
+@media screen and (min-width:992px) {
+    .pl-lg-50 {
+        padding-left: 50px;
+    }
+}
+
+/*xl device min width*/
+@media screen and (min-width:1200px) {
+    .video-icon {
+        left: 75%;
+    }
+}
