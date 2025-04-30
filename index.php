@@ -39,6 +39,13 @@ get('/register', function() {
     header('location : https://account.topcoinxstreams.com/?a=login');
 });
 
+
+post('/contact', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
+});
+post('/support', function() {
+    include $_SERVER['DOCUMENT_ROOT'] . '/pages/contactpage.php';
+});
 //post('/user/settings', function() {
 //    include $_SERVER['DOCUMENT_ROOT'] . '/user/settings.php';
 //});
