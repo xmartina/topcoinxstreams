@@ -582,26 +582,53 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
         <div class="row pb-60">
             <div class="col-lg-12">
                 <div class="itpro-section-title text-center  wow fadeInUp ">
-                    <h4 class="section-sub-title style6">CLIENTS FEEDBACK</h4>
+                    <h4 class="section-sub-title style6">CRYPTO INVESTOR REVIEWS</h4>
                     <div class="itpro-section-main-title">
-                        <h1>20k+ satisfied clients <span style="color: #ff3c00;">worldwide</span> </h1>
-
+                        <h1>50k+ Verified Investors Trust <span style="color: #ff3c00;"><?php echo $siteName; ?></span></h1>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="testimonial_list owl-carousel">
+                <!-- Testimonial 1: Security Focus -->
                 <div class="col-lg-12">
                     <div class="testimonial-item  wow fadeInUp ">
                         <div class="author_thumb">
                             <div class="author">
-                                <img src="<?=$siteLink?>/assets/images/resource/testi-thumb2.jpg" alt="">
+                                <img src="<?=$siteLink?>/assets/images/resource/investor1.jpg" alt="Crypto Investor">
                             </div>
                         </div>
                         <div class="testi-author">
-                            <h4 class="name">Humayun Ahmed</h4>
-                            <h5 class="designation">Web Developer</h5>
+                            <h4 class="name">Sarah Chen</h4>
+                            <h5 class="designation">Singapore · BTC Investor</h5>
+                        </div>
+                        <div class="reviews_rating">
+                            <div class="testi-star">
+                                <i class="fa fa-star active"></i>
+                                <i class="star fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="quote">"The cold storage security and instant withdrawals at <?php echo $siteName; ?> convinced me to switch from my old exchange. My portfolio grew 65% in 6 months!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2: Dashboard Experience -->
+                <div class="col-lg-12">
+                    <div class="testimonial-item  wow fadeInUp ">
+                        <div class="author_thumb">
+                            <div class="author">
+                                <img src="<?=$siteLink?>/assets/images/resource/investor2.jpg" alt="Crypto Trader">
+                            </div>
+                        </div>
+                        <div class="testi-author">
+                            <h4 class="name">Raj Patel</h4>
+                            <h5 class="designation">India · Altcoin Trader</h5>
                         </div>
                         <div class="reviews_rating">
                             <div class="testi-star">
@@ -613,11 +640,34 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p class="quote">Team is a dverse networks of consultants professional
-                                with a global mindset and a colbortive culiure  the wark creative
-                                consultants professional global mindset and design cculure
-                                your and driven questions.</p>
+                            <p class="quote">"The <?php echo $accountLink; ?> dashboard is a game-changer! Real-time charts, staking rewards tracking, and 24/7 support make managing my crypto effortless."</p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Testimonial 3: New User Experience -->
+                <div class="col-lg-12">
+                    <div class="testimonial-item  wow fadeInUp ">
+                        <div class="author_thumb">
+                            <div class="author">
+                                <img src="<?=$siteLink?>/assets/images/resource/investor3.jpg" alt="Crypto Beginner">
+                            </div>
+                        </div>
+                        <div class="testi-author">
+                            <h4 class="name">Emily Torres</h4>
+                            <h5 class="designation">USA · First-Time Investor</h5>
+                        </div>
+                        <div class="reviews_rating">
+                            <div class="testi-star">
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="quote">"<?php echo $siteName; ?>’s tutorials and low minimum deposits helped me start investing in Bitcoin confidently. Withdrawals took just 3 hours during my test!"</p>
                         </div>
                     </div>
                 </div>
@@ -625,7 +675,6 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
         </div>
     </div>
 </div>
-
 <!--==================================================-->
 <!-- End itpro Testimonial Area -->
 <!--==================================================-->
@@ -770,7 +819,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
             </div>
             <div class="col-lg-6 col-md-6 text-right  wow fadeInUp ">
                 <div class="email-content">
-                    <h4><i class="bi bi-envelope"></i>your-email@domain.com</h4>
+                    <h4><i class="bi bi-envelope"></i><?=$siteEmail?></h4>
                 </div>
             </div>
             <div class="email-shape1  wow fadeInUp ">
