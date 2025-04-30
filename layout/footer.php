@@ -263,5 +263,6 @@
 
 <!-- theme js -->
 <script src="<?=$siteLink?>/assets/js/theme.js"></script>
+<?php echo $support_plugin; ?>
 </body>
 </html>
