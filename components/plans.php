@@ -1,3 +1,8 @@
+<style>
+    .pricing-item-text span {
+        font-size: 32px;
+    }
+</style>
 <?php
 $sql_back = "SELECT * FROM hm2_plans";
 $get_plan = $conn->query($sql_back);
@@ -23,7 +28,6 @@ if ($get_plan && $get_plan->num_rows > 0) {
                     <h3><?= htmlspecialchars($row['name']) ?></h3>
                 </div>
                 <div class="pricing-item-text mb-15">
-                    <span class="currency">$</span>
                     <span class="tk"><?= $deposit_range ?></span>
                     <?php if ($row['percent']) : ?>
                         <span class="month"><?= $row['percent'] ?>% daily</span>
