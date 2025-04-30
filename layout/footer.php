@@ -1,3 +1,84 @@
+
+<!--==================================================-->
+<!-- Start itpro Brand Area -->
+<!--==================================================-->
+<div class="brand-area">
+    <div class="container">
+        <div class="row">
+            <div class="brand-list owl-carousel">
+                <div class="col-md-12">
+                    <div class="single-brand-box  wow fadeInUp ">
+                        <div class="brand-thumb">
+                            <img src="<?=$siteLink?>/assets/images/resource/brand-1.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-brand-box  wow fadeInUp ">
+                        <div class="brand-thumb">
+                            <img src="<?=$siteLink?>/assets/images/resource/brand-2.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-brand-box  wow fadeInUp ">
+                        <div class="brand-thumb">
+                            <img src="<?=$siteLink?>/assets/images/resource/brand-3.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-brand-box  wow fadeInUp ">
+                        <div class="brand-thumb">
+                            <img src="<?=$siteLink?>/assets/images/resource/brand-4.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-brand-box  wow fadeInUp ">
+                        <div class="brand-thumb">
+                            <img src="<?=$siteLink?>/assets/images/resource/brand-5.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==================================================-->
+<!-- Start itpro Brand Area -->
+<!--==================================================-->
+
+
+
+
+<!--==================================================-->
+<!-- Start itpro Our Email Area -->
+<!--==================================================-->
+<div class="email-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="email-content  wow fadeInUp ">
+                    <h4>Write Us Something on E-Mail</h4>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-right  wow fadeInUp ">
+                <div class="email-content">
+                    <h4><i class="bi bi-envelope"></i><?=$siteEmail?></h4>
+                </div>
+            </div>
+            <div class="email-shape1  wow fadeInUp ">
+                <img src="<?=$siteLink?>/assets/images/resource/email-shape1.png" alt="shape">
+            </div>
+        </div>
+    </div>
+</div>
+<!--==================================================-->
+<!-- Start itpro Email Area -->
+<!--==================================================-->
+
+
 <!--==================================================-->
 <!-- Start itpro Footer Area -->
 <!--==================================================-->
