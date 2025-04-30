@@ -1,5 +1,5 @@
 <?php
-$page_name = 'Home';
+$pageName = 'Home';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/include/config.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php'; ?>
 

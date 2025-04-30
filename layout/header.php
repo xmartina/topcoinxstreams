@@ -61,11 +61,11 @@
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="logo">
-                    <a class="logo_img" href="index.html" title="itpro">
-                        <img src="assets/images/logo.png" alt="logo">
+                    <a class="logo_img" href="<?=$siteLink?>" title="itpro">
+                        <img src="<?=$siteLink?>/assets/images/logo.png" alt="logo">
                     </a>
                     <a class="main_sticky" href="index.html" title="itpro">
-                        <img src="assets/images/logo.png" alt="logo">
+                        <img src="<?=$siteLink?>/assets/images/logo.png" alt="logo">
                     </a>
                 </div>
             </div>
