@@ -8,16 +8,16 @@
                 <div class="breadcumb-content">
                     <h1>About Us</h1>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li>About Us </li>
+                        <li><a href="<?=$sitelink?>">Home</a></li>
+                        <li><?=$pageName?> </li>
                     </ul>
                 </div>
             </div>
             <div class="britcam-shape">
                 <div class="breadcumb-content upp">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li>About Us </li>
+                        <li><a href="<?=$sitelink?>">Home</a></li>
+                        <li><?=$pageName?> </li>
                     </ul>
                 </div>
             </div>
