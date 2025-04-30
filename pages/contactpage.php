@@ -72,7 +72,11 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                         </div>
                         <div class="cda-content-inner">
                             <h4>Telephone Number</h4>
-                            <p>+880 636 524 265, <br>+880 636 524 265, </p>
+                            <?php
+                            foreach ($sitePhones as $phone){
+                                ?>
+                                <p><?=$phone?><br></p>
+                            <?php } ?>
                         </div>
                     </div>
                     <div class="cda-single-content hr d-flex">
@@ -82,7 +86,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                         <div class="cda-content-inner">
                             <h4>Our Email Address</h4>
                             <?php
-                            foreach ($siteEmail as $email){
+                            foreach ($siteEmails as $email){
                             ?>
                             <p><?=$email?><br></p>
                             <?php } ?>
