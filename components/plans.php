@@ -36,7 +36,7 @@ if ($get_plan && $get_plan->num_rows > 0) {
                 <div class="pricing-item-text mb-15">
                     <span class="tk"><?= $deposit_range ?></span>
                     <?php if ($row['percent']) : ?>
-                        <span class="month"><?= $row['percent'] ?>% daily</span>
+                        <span class="month" style="color: #FF3C00;"><?= $row['percent'] ?>% daily</span>
                     <?php endif; ?>
                 </div>
                 <div class="pricing-body">
