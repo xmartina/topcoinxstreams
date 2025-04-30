@@ -6,7 +6,7 @@
         <div class="row d-flex align-items-center">
             <div class="col-lg-12">
                 <div class="breadcumb-content">
-                    <h1>About Us</h1>
+                    <h1><?=$pageName?></h1>
                     <ul>
                         <li><a href="<?=$sitelink?>">Home</a></li>
                         <li><?=$pageName?> </li>
