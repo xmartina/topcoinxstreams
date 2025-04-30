@@ -1,5 +1,5 @@
 <?php
-$pageName = 'Terms';
+$pageName = 'Contact Us';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/include/config.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/header.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
@@ -82,7 +82,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/layout/breadcrumb.php';
                         <div class="cda-content-inner">
                             <h4>Our Email Address</h4>
                             <?php
-                            foreach ($siteEmails as $email){
+                            foreach ($siteEmail as $email){
                             ?>
                             <p><?=$email?><br></p>
                             <?php } ?>

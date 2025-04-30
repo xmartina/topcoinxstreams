@@ -5,5 +5,5 @@ $support_plugin = getenv('SUPPORT_PLUGIN');
 $siteLink = 'https://topcoinxstreams.com';
 $accountLink = 'https://account.topcoinxstreams.com';
 $siteName  = 'Topcoin Xstreams';
-$siteEmails = array('contact@topcoinxstreams.com', 'support@topcoinxstreams.com');
+$siteEmail = array('contact@topcoinxstreams.com', 'support@topcoinxstreams.com');
 
